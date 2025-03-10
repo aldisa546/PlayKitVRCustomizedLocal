@@ -1,10 +1,7 @@
-#suffix = '-dev'   # Dev mode
-suffix = ''       # Release
-
 Pod::Spec.new do |s|
   
   s.name             = 'PlayKitVRCustomizedLocal'
-  s.version          = '1.3.1' + suffix
+  s.version          = '1.3.2'
   s.summary          = 'PlayKitVRCustomizedLocal -- VR framework for iOS fixing CVMetalTextureCacheCreateTextureFromImage issue'
   s.homepage         = 'https://github.com/aldisa546/PlayKitVRCustomizedLocal'
   s.license          = { :type => 'AGPLv3', :file => 'LICENSE' }
